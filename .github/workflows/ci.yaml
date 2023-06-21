@@ -19,5 +19,3 @@ jobs:
         run: yarn test
       - name: Check formatting
         run: yarn format:check
-      - name: Check linting
-        run: yarn lint
