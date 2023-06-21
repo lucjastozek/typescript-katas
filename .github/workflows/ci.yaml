@@ -17,3 +17,7 @@ jobs:
         run: yarn type-check
       - name: Run tests with Jest
         run: yarn test
+      - name: Check formatting
+        run: yarn format:check
+      - name: Check linting
+        run: yarn lint
