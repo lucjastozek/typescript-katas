@@ -21,7 +21,7 @@ RETURN sum
 */
 
 function countNumbers(arr: (number | string)[]): number {
-  let numbers :number[] = [];
+  let numbers: number[] = [];
   for (let element of arr) {
     if (typeof element === "number") {
       numbers.push(element);
@@ -31,4 +31,3 @@ function countNumbers(arr: (number | string)[]): number {
 }
 
 export default countNumbers;
-
